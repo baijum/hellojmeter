@@ -44,8 +44,16 @@ Running JMeter
 
 To run JMeter::
 
-  ./apache-jmeter-2.6/bin/jmeter
+  ./apache-jmeter-2.6/bin/jmeter -t testcases/TestHello.jmx
 
+Running Test Case
+-----------------
+
+There are many ways to run the test case through the UI
+
+1. Press Ctrl+R to run the test case.
+2. Click on the menu: Run -> Start
+3. Click on the right arrow green button in the tool bar
 
 Links
 -----
