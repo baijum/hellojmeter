@@ -8,6 +8,7 @@ usr
 .installed.cfg
 bin
 eggs
+jenkins
 develop-eggs
 hellojmeter.pid
 src/hellojmeter.egg-info
