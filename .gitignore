@@ -1,0 +1,12 @@
+*~
+*.pyc
+jmeter.log
+apache-jmeter-2.6
+downloads
+usr
+.installed.cfg
+bin
+eggs
+develop-eggs
+hellojmeter.pid
+src/hellojmeter.egg-info

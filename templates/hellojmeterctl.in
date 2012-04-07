@@ -1,0 +1,10 @@
+#!/bin/bash
+
+#check for 'hellojmeter.pid' file existence and kill the process
+if [ -e ${:pid} ]
+    then 
+       kill -9 `cat ${:pid}`
+fi       
+
+#Start deamon process
+${buildout:bin-directory}/gunicorn -D hellojmeter:app -w ${:workers} -b ${:host}:${:port} -p ${:pid} $@
