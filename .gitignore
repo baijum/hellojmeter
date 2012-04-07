@@ -1,6 +1,7 @@
 *~
 *.pyc
 jmeter.log
+jmeter-server.log
 apache-jmeter-2.6
 downloads
 usr
