@@ -1,0 +1,3 @@
+#!/bin/bash
+export JENKINS_HOME=${:home}
+java -Dmail.smtp.localhost=localhost -jar ${:home}/jenkins.war --httpPort=8888 --ajp13Port=8887 --logfile=$JENKINS_HOME/main.log --daemon $@
