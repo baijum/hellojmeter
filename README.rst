@@ -39,21 +39,26 @@ To run sample application::
 
    ./bin/hellojmeterctl
 
-Running JMeter
---------------
+Running JMeter test cases from command line
+-------------------------------------------
 
-To run JMeter::
+To run JMeter test case from command line::
+
+  ./apache-jmeter-2.6/bin/jmeter -n -t testcases/TestHello.jmx -l log.jtl
+
+Running JMeter test cases in GUI mode
+-------------------------------------
+
+Start JMeter::
 
   ./apache-jmeter-2.6/bin/jmeter -t testcases/TestHello.jmx
 
-Running Test Case
------------------
-
-There are many ways to run the test case through the UI
+Then, run test case through one of these methods:
 
 1. Press Ctrl+R to run the test case.
 2. Click on the menu: Run -> Start
 3. Click on the right arrow green button in the tool bar
+
 
 Links
 -----
